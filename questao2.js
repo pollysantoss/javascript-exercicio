@@ -1,0 +1,1 @@
+var fahrenheit = prompt("Digite uma temperatura em Fahrenheit:")
