@@ -1,16 +1,25 @@
-var num = prompt("Digite um número inteiro")
-num = parseInt(num)
+var num = []
 
-if(((num % 3) == 0) && ((num % 5) == 0)){
-    console.log("fizzbuzz")
+for (contador = 0; contador < 5; contador++) {
+    num.push(prompt("Digite um número inteiro:"))
 }
 
-else
-    if((num % 3) == 0){
-    console.log("fizz")
+for(contador = 0; contador < num.length; contador++) {
+    num[contador] = parseInt(num[contador])
+}
+
+for(numeros of num){
+    if(((numeros % 3) == 0) && ((numeros % 5) == 0)){
+        console.log("fizzbuzz")
     }
 
     else
-        if((num % 5) == 0){
-            console.log("buzz")
+        if((numeros % 3) == 0){
+        console.log("fizz")
         }
+
+        else
+            if((numeros % 5) == 0){
+            console.log("buzz")
+            }
+}
