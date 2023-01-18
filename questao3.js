@@ -5,3 +5,9 @@ var nota3 = prompt("Digite nota 3 do aluno:")
 nota1 = parseFloat(nota1)
 nota2 = parseFloat(nota2)
 nota3 = parseFloat(nota3)
+
+if(((nota1 + nota2 + nota3)/3) >= 6){
+    console.log("Aprovado.")
+} else {
+    console.log("Reprovado.")
+}
