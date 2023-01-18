@@ -5,8 +5,9 @@ for(var i = 0; i < 5; i++){
     valor[i] = parseInt(valor[i])
 }
 
-
 var crescente = valor.sort()
-var sequencia = valor
+console.log("Valores em ordem crescente: " + crescente)
+console.log("")
 
-console.log(crescente + "\n" + "" + sequencia)
+var sequencia = valor.reverse()
+console.log("Valores na sequência: " + sequencia)
