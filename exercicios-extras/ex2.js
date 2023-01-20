@@ -11,4 +11,4 @@ function multNum (num1,num2){
   return (multNum(num1,(num2 - 1)))
 }
 
-alert(numX + "x" + numN + "=" multNum(numX, numN))
+alert(numX + "x" + numN + "=" + multNum(numX, numN))
