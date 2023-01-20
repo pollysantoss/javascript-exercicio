@@ -1,7 +1,7 @@
 var numX = prompt("Digite o primeiro número:")
 var numN = prompt("Digite o segundo número:")
-numX = parseInt(num1)
-numN = parseInt(num2)
+numX = parseInt(numX)
+numN = parseInt(numN)
 
 function multNum (num1,num2){
   var contador = num2
