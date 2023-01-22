@@ -960,3 +960,30 @@ const gods = [
     features: [],
   },
 ];
+
+//Q1. Imprima o nome e a quantidade de features de todos os deuses usando uma única linha de código.
+
+for(j of gods){console.log(`${j.name} ${j.features.length}`)}
+
+
+//Q2. Imprima todos os deuses que possuem o papel de "Mid"
+
+for(j of gods){
+  if(j.roles == "Mid"){
+    console.log(j)
+  }
+}
+
+
+//Q3. Organize a lista pelo panteão do deus.
+
+
+
+//Q4. Faça um código que retorne um novo array com o nome de cada deus e entre parênteses, a sua classe.
+
+var novoArray = []
+  for(i of gods){
+    novoArray.push(i.name)
+    novoArray.push(i.class)
+  }
+console.log(novoArray)
