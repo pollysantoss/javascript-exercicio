@@ -24,17 +24,17 @@ Questão 4. Teste 5 números inteiros aleatórios. Os testes:
 ● Caso contrário imprima nada.
 
 
-Exercícios Extras:
-1. Faça um programa que leia 6 valores. Estes valores são somente negativos ou positivos (desconsidere os valores nulos). A seguir, mostre a quantidade de valores positivos digitados.
+<b>Exercícios Extras:</b>
+ex 1. Faça um programa que leia 6 valores. Estes valores são somente negativos ou positivos (desconsidere os valores nulos). A seguir, mostre a quantidade de valores positivos digitados.
 
 
-2. Implemente uma função recursiva que,dados dois números inteiros x e n, calcula o valor de xn.
+ex 2. Implemente uma função recursiva que,dados dois números inteiros x e n, calcula o valor de xn.
 
 
-3. Escolha 5 valores inteiros e ordene-os em ordem crescente. No final, mostre os valores em ordem crescente, uma linha em branco e em seguida, os valores na sequência
+ex 3. Escolha 5 valores inteiros e ordene-os em ordem crescente. No final, mostre os valores em ordem crescente, uma linha em branco e em seguida, os valores na sequência
 
 
-4. Crie um algoritmo que transforma as notas do sistema numérico para
+ex 4. Crie um algoritmo que transforma as notas do sistema numérico para
 sistema de notas em caracteres Tipo A, B e C
 ● hde 90 para cima - A
 ● entre 80 e 90 -B
@@ -43,7 +43,7 @@ sistema de notas em caracteres Tipo A, B e C
 ● menor que 60 - F
 
 
-5. Crie um objeto que possuirá 2 propriedades, ambas do tipo array:
+ex 6. Crie um objeto que possuirá 2 propriedades, ambas do tipo array:
 ● receitas: [ ]
 ● despesas: [ ]
 Agora, crie uma função que irá calcular o total de receitas e despesas e
