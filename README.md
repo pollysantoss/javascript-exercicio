@@ -1,7 +1,7 @@
 # javascript-exercicio
 Realizado em janeiro de 2023. Prática de exercícios em javascript durante o processo seletivo da INJUNIOR.
 
-Exercícios realizados (fornecidos pela INJunior):
+<b>Exercícios realizados (fornecidos pela INJunior):</b>
 
 Questão 1. Implemente um algoritmo que pegue duas matrizes (array de arrays) e realize sua multiplicação. Lembrando que para realizar a multiplicação dessas matrizes o número de colunas da primeira matriz tem que ser
 igual ao número de linhas da segunda matriz. (2x2)
@@ -25,6 +25,7 @@ Questão 4. Teste 5 números inteiros aleatórios. Os testes:
 
 
 <b>Exercícios Extras:</b>
+
 ex 1. Faça um programa que leia 6 valores. Estes valores são somente negativos ou positivos (desconsidere os valores nulos). A seguir, mostre a quantidade de valores positivos digitados.
 
 
